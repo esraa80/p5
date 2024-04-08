@@ -28,7 +28,6 @@ body {
     min-height: 100vh;
 }
 
-
 .text {
     font-family: "Cairo", sans-serif;
     font-weight: 50px;
@@ -58,12 +57,10 @@ body {
 
 ul {
     direction: rtl;
-    /* تغيير اتجاه الترقيم إلى اليمين */
 }
 
 ol {
     direction: rtl;
-    /* تغيير اتجاه الترقيم إلى اليمين */
 }
 
 
@@ -89,14 +86,14 @@ section {
 
 .column {
     width: 100%;
-    /* padding: 0 1em 1em 1em; */
+    padding: 0 1em 1em 1em;
     text-align: center;
 }
 
 .card {
     width: 100%;
     height: 100%;
-    /* padding: 2em 1.5em; */
+    padding: 2em 1.5em;
     background: linear-gradient(#ffffff 50%, #7522c8 50%);
     background-size: 100% 200%;
     background-position: 0 2.5%;
@@ -110,7 +107,7 @@ h3 {
     font-size: 20px;
     font-weight: 600;
     color: #1f194c;
-    /* margin: 1em 0; */
+    margin: 1em 0;
 }
 
 h1 {
@@ -230,7 +227,6 @@ p {
 }
 
 .footer-content {
-    padding: 0 30px;
     align-items: center;
 }
 
@@ -245,6 +241,7 @@ p {
     font-weight: 30px;
     margin-bottom: 100px;
     padding-bottom: 50px;
+    font-size: 15px;
 }
 
 .whatsapp-icon {
@@ -302,9 +299,9 @@ p {
 }
 
 .footer-bottom .vistors-details ul li a {
+    width: 7vw;
+    height: 9vw;
     background: #ffffff;
-    width: 70px;
-    height: 80px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -344,16 +341,14 @@ p {
     .column {
         width: 100%;
     }
-    .footer-bottom .vistors-details ul li a {
-        width: 12vw;
-        height: 15vw;
-    }
     .h8 {
-        font-size: 15px;
+        font-size: 13px;
     }
     .title {
         font-size: 20px;
     }
-}
-.title{    font-family: "Cairo", sans-serif;
+    .footer-bottom .vistors-details ul li a {
+        width: 12vw;
+        height: 15vw;
+    }
 }
