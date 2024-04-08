@@ -351,4 +351,7 @@ p {
         width: 12vw;
         height: 15vw;
     }
+    .mb-55 a {
+        font-size: 10px;
+    }
 }
