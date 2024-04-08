@@ -327,12 +327,8 @@ p {
     html {
         overflow-x: hidden;
     }
-    h1 {
-        text-align: center;
-        font-size: 14px;
-    }
     .text {
-        font-size: 13px;
+        font-size: 17px;
     }
     .salla {
         display: inline-block;
@@ -354,4 +350,8 @@ p {
     .mb-55 a {
         font-size: 10px;
     }
+}
+
+.title {
+    font-family: "Cairo", sans-serif;
 }
